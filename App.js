@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 let element = React.createElement(
     'div',
     { className: "Parent", id: "mine" },
@@ -13,6 +16,6 @@ let element = React.createElement(
 // console.log(element)
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-console.log(root)
+// console.log(root)
 
 root.render(element)
